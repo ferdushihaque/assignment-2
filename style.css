@@ -163,23 +163,49 @@ nav ul li{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 90%;
     }
-    .first-arti{
-        display: flex;
-        flex-direction: column ;
-    }
-    .secound-arti{
-        display: flex;
-        flex-direction: column ;
-    }
-    .thrid-arti{
-        display: flex;
-        flex-direction: column ;
-    }
+    
+  
+    
     .secound-section{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* tablet view  */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .first-arti{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .secound-arti{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .thrid-arti{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .watch{
+        text-decoration: none;
+        background: #DD0000;
+        color: #FFFFFF;
+        padding: 15px 30px;
+        border-radius: 5px;
+    }
+    
     ul{
         display: flex;
         flex-direction: column;
